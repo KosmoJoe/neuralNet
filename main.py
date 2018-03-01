@@ -18,7 +18,7 @@ np.set_printoptions(threshold=np.nan)
 matfile = sio.loadmat('data/data1.mat')
 
 #### Making of Training Sample
-numExamples = 500#matfile['y'].shape[0]
+numExamples = matfile['y'].shape[0]
 numFeatures = matfile['X'].shape[1]
 numClasses = 10
 X = matfile['X'][range(numExamples),:]
