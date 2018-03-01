@@ -18,5 +18,5 @@ __neuralNet__ includes:
 A a proof of principle, a example network with two layers (25 hidden, 10 output) is implemented to predict the handwritten digits
 of the MNIST database. TANH is used as an activation function. Without hyperparameter fine tuning, a Train classification accuracy of 98.5% is achieved after 3000 epochs.
 
-![GitHub Logo](/images/logo.png)
+![Cost and Accuracy as a function of epochs](/img/error.png)
 Format: ![Alt Text](url)
